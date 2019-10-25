@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90383942361A43F003C8B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90383932361A43F003C8B21 /* Assets.xcassets */; };
+		D90383A22361A43F003C8B21 /* OVLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90383A12361A43F003C8B21 /* OVLiveTests.swift */; };
+		D90383AD2361A43F003C8B21 /* OVLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90383AC2361A43F003C8B21 /* OVLiveUITests.swift */; };
+		D9DFB599236290FC00D35C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DFB594236290FC00D35C93 /* LaunchScreen.storyboard */; };
+		D9DFB59A236290FC00D35C93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DFB596236290FC00D35C93 /* Main.storyboard */; };
+		D9DFB5EB2362A12E00D35C93 /* OVLiveTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFB5EA2362A12E00D35C93 /* OVLiveTabbarViewController.swift */; };
+		D9DFB5ED2362A15F00D35C93 /* OVLiveHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFB5EC2362A15F00D35C93 /* OVLiveHomeViewController.swift */; };
+		D9DFB5EF2362A17000D35C93 /* OVLivewFollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFB5EE2362A17000D35C93 /* OVLivewFollowViewController.swift */; };
+		D9DFB5F12362A18A00D35C93 /* OVLiveMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFB5F02362A18A00D35C93 /* OVLiveMessageViewController.swift */; };
+		D9DFB5F32362A19E00D35C93 /* OVUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFB5F22362A19E00D35C93 /* OVUserInfoViewController.swift */; };
+		D9DFB5FB2362A6A900D35C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFB5FA2362A6A900D35C93 /* AppDelegate.swift */; };
+		D9DFB6032362A86200D35C93 /* OVLiveTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFB6022362A86200D35C93 /* OVLiveTabbarView.swift */; };
+		D9DFB6052362A89900D35C93 /* OVLiveTabbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DFB6042362A89900D35C93 /* OVLiveTabbarItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D903839E2361A43F003C8B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90383812361A43C003C8B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D90383882361A43C003C8B21;
+			remoteInfo = OVLive;
+		};
+		D90383A92361A43F003C8B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90383812361A43C003C8B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D90383882361A43C003C8B21;
+			remoteInfo = OVLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D90383892361A43C003C8B21 /* OVLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OVLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90383932361A43F003C8B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D903839D2361A43F003C8B21 /* OVLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OVLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90383A12361A43F003C8B21 /* OVLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVLiveTests.swift; sourceTree = "<group>"; };
+		D90383A32361A43F003C8B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90383A82361A43F003C8B21 /* OVLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OVLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90383AC2361A43F003C8B21 /* OVLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVLiveUITests.swift; sourceTree = "<group>"; };
+		D90383AE2361A43F003C8B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DFB595236290FC00D35C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9DFB597236290FC00D35C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		D9DFB5EA2362A12E00D35C93 /* OVLiveTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVLiveTabbarViewController.swift; sourceTree = "<group>"; };
+		D9DFB5EC2362A15F00D35C93 /* OVLiveHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVLiveHomeViewController.swift; sourceTree = "<group>"; };
+		D9DFB5EE2362A17000D35C93 /* OVLivewFollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVLivewFollowViewController.swift; sourceTree = "<group>"; };
+		D9DFB5F02362A18A00D35C93 /* OVLiveMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVLiveMessageViewController.swift; sourceTree = "<group>"; };
+		D9DFB5F22362A19E00D35C93 /* OVUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVUserInfoViewController.swift; sourceTree = "<group>"; };
+		D9DFB5FA2362A6A900D35C93 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9DFB5FC2362A73B00D35C93 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DFB6022362A86200D35C93 /* OVLiveTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVLiveTabbarView.swift; sourceTree = "<group>"; };
+		D9DFB6042362A89900D35C93 /* OVLiveTabbarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVLiveTabbarItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90383862361A43C003C8B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D903839A2361A43F003C8B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90383A52361A43F003C8B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90383802361A43C003C8B21 = {
+			isa = PBXGroup;
+			children = (
+				D903838B2361A43C003C8B21 /* OVLive */,
+				D90383A02361A43F003C8B21 /* OVLiveTests */,
+				D90383AB2361A43F003C8B21 /* OVLiveUITests */,
+				D903838A2361A43C003C8B21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D903838A2361A43C003C8B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90383892361A43C003C8B21 /* OVLive.app */,
+				D903839D2361A43F003C8B21 /* OVLiveTests.xctest */,
+				D90383A82361A43F003C8B21 /* OVLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D903838B2361A43C003C8B21 /* OVLive */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFB5FF2362A78400D35C93 /* Config */,
+				D9DFB58F236290F100D35C93 /* Launch */,
+				D9DFB5E92362A10A00D35C93 /* OVBasePage */,
+				D9DFB56B23628EC800D35C93 /* OVLiveHome */,
+				D9DFB57D23628EC800D35C93 /* OVFollowPage */,
+				D9DFB57023628EC800D35C93 /* OVMessagePage */,
+				D9DFB57823628EC800D35C93 /* OVUserInfoPage */,
+				D9DFB58423628F0F00D35C93 /* Assets */,
+			);
+			path = OVLive;
+			sourceTree = "<group>";
+		};
+		D90383A02361A43F003C8B21 /* OVLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				D90383A12361A43F003C8B21 /* OVLiveTests.swift */,
+				D90383A32361A43F003C8B21 /* Info.plist */,
+			);
+			path = OVLiveTests;
+			sourceTree = "<group>";
+		};
+		D90383AB2361A43F003C8B21 /* OVLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D90383AC2361A43F003C8B21 /* OVLiveUITests.swift */,
+				D90383AE2361A43F003C8B21 /* Info.plist */,
+			);
+			path = OVLiveUITests;
+			sourceTree = "<group>";
+		};
+		D9DFB56B23628EC800D35C93 /* OVLiveHome */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFB56C23628EC800D35C93 /* ViewModel */,
+				D9DFB56D23628EC800D35C93 /* Controller */,
+				D9DFB56E23628EC800D35C93 /* Model */,
+				D9DFB56F23628EC800D35C93 /* View */,
+			);
+			path = OVLiveHome;
+			sourceTree = "<group>";
+		};
+		D9DFB56C23628EC800D35C93 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D9DFB56D23628EC800D35C93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFB5EC2362A15F00D35C93 /* OVLiveHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9DFB56E23628EC800D35C93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9DFB56F23628EC800D35C93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9DFB57023628EC800D35C93 /* OVMessagePage */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFB57123628EC800D35C93 /* ViewModel */,
+				D9DFB57223628EC800D35C93 /* Controller */,
+				D9DFB57323628EC800D35C93 /* Model */,
+				D9DFB57423628EC800D35C93 /* View */,
+			);
+			path = OVMessagePage;
+			sourceTree = "<group>";
+		};
+		D9DFB57123628EC800D35C93 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D9DFB57223628EC800D35C93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFB5F02362A18A00D35C93 /* OVLiveMessageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9DFB57323628EC800D35C93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9DFB57423628EC800D35C93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9DFB57823628EC800D35C93 /* OVUserInfoPage */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFB57923628EC800D35C93 /* ViewModel */,
+				D9DFB57A23628EC800D35C93 /* Controller */,
+				D9DFB57B23628EC800D35C93 /* Model */,
+				D9DFB57C23628EC800D35C93 /* View */,
+			);
+			path = OVUserInfoPage;
+			sourceTree = "<group>";
+		};
+		D9DFB57923628EC800D35C93 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D9DFB57A23628EC800D35C93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFB5F22362A19E00D35C93 /* OVUserInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9DFB57B23628EC800D35C93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9DFB57C23628EC800D35C93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9DFB57D23628EC800D35C93 /* OVFollowPage */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFB57E23628EC800D35C93 /* ViewModel */,
+				D9DFB57F23628EC800D35C93 /* Controller */,
+				D9DFB58023628EC800D35C93 /* Model */,
+				D9DFB58123628EC800D35C93 /* View */,
+			);
+			path = OVFollowPage;
+			sourceTree = "<group>";
+		};
+		D9DFB57E23628EC800D35C93 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D9DFB57F23628EC800D35C93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFB5EE2362A17000D35C93 /* OVLivewFollowViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9DFB58023628EC800D35C93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9DFB58123628EC800D35C93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9DFB58423628F0F00D35C93 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D90383932361A43F003C8B21 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D9DFB58F236290F100D35C93 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFB5FA2362A6A900D35C93 /* AppDelegate.swift */,
+				D9DFB594236290FC00D35C93 /* LaunchScreen.storyboard */,
+				D9DFB596236290FC00D35C93 /* Main.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		D9DFB5E92362A10A00D35C93 /* OVBasePage */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFB6012362A82900D35C93 /* Tabbar */,
+			);
+			path = OVBasePage;
+			sourceTree = "<group>";
+		};
+		D9DFB5FF2362A78400D35C93 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFB5FC2362A73B00D35C93 /* Info.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		D9DFB6012362A82900D35C93 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				D9DFB5EA2362A12E00D35C93 /* OVLiveTabbarViewController.swift */,
+				D9DFB6022362A86200D35C93 /* OVLiveTabbarView.swift */,
+				D9DFB6042362A89900D35C93 /* OVLiveTabbarItem.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90383882361A43C003C8B21 /* OVLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90383B12361A43F003C8B21 /* Build configuration list for PBXNativeTarget "OVLive" */;
+			buildPhases = (
+				D90383852361A43C003C8B21 /* Sources */,
+				D90383862361A43C003C8B21 /* Frameworks */,
+				D90383872361A43C003C8B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OVLive;
+			productName = OVLive;
+			productReference = D90383892361A43C003C8B21 /* OVLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D903839C2361A43F003C8B21 /* OVLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90383B42361A43F003C8B21 /* Build configuration list for PBXNativeTarget "OVLiveTests" */;
+			buildPhases = (
+				D90383992361A43F003C8B21 /* Sources */,
+				D903839A2361A43F003C8B21 /* Frameworks */,
+				D903839B2361A43F003C8B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D903839F2361A43F003C8B21 /* PBXTargetDependency */,
+			);
+			name = OVLiveTests;
+			productName = OVLiveTests;
+			productReference = D903839D2361A43F003C8B21 /* OVLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D90383A72361A43F003C8B21 /* OVLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90383B72361A43F003C8B21 /* Build configuration list for PBXNativeTarget "OVLiveUITests" */;
+			buildPhases = (
+				D90383A42361A43F003C8B21 /* Sources */,
+				D90383A52361A43F003C8B21 /* Frameworks */,
+				D90383A62361A43F003C8B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90383AA2361A43F003C8B21 /* PBXTargetDependency */,
+			);
+			name = OVLiveUITests;
+			productName = OVLiveUITests;
+			productReference = D90383A82361A43F003C8B21 /* OVLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90383812361A43C003C8B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = chris;
+				TargetAttributes = {
+					D90383882361A43C003C8B21 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					D903839C2361A43F003C8B21 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D90383882361A43C003C8B21;
+					};
+					D90383A72361A43F003C8B21 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D90383882361A43C003C8B21;
+					};
+				};
+			};
+			buildConfigurationList = D90383842361A43C003C8B21 /* Build configuration list for PBXProject "OVLive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				global,
+			);
+			mainGroup = D90383802361A43C003C8B21;
+			productRefGroup = D903838A2361A43C003C8B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90383882361A43C003C8B21 /* OVLive */,
+				D903839C2361A43F003C8B21 /* OVLiveTests */,
+				D90383A72361A43F003C8B21 /* OVLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D90383872361A43C003C8B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DFB599236290FC00D35C93 /* LaunchScreen.storyboard in Resources */,
+				D90383942361A43F003C8B21 /* Assets.xcassets in Resources */,
+				D9DFB59A236290FC00D35C93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D903839B2361A43F003C8B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90383A62361A43F003C8B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90383852361A43C003C8B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DFB5FB2362A6A900D35C93 /* AppDelegate.swift in Sources */,
+				D9DFB6052362A89900D35C93 /* OVLiveTabbarItem.swift in Sources */,
+				D9DFB5EB2362A12E00D35C93 /* OVLiveTabbarViewController.swift in Sources */,
+				D9DFB5F32362A19E00D35C93 /* OVUserInfoViewController.swift in Sources */,
+				D9DFB5EF2362A17000D35C93 /* OVLivewFollowViewController.swift in Sources */,
+				D9DFB5ED2362A15F00D35C93 /* OVLiveHomeViewController.swift in Sources */,
+				D9DFB5F12362A18A00D35C93 /* OVLiveMessageViewController.swift in Sources */,
+				D9DFB6032362A86200D35C93 /* OVLiveTabbarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90383992361A43F003C8B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90383A22361A43F003C8B21 /* OVLiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90383A42361A43F003C8B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90383AD2361A43F003C8B21 /* OVLiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D903839F2361A43F003C8B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D90383882361A43C003C8B21 /* OVLive */;
+			targetProxy = D903839E2361A43F003C8B21 /* PBXContainerItemProxy */;
+		};
+		D90383AA2361A43F003C8B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D90383882361A43C003C8B21 /* OVLive */;
+			targetProxy = D90383A92361A43F003C8B21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9DFB594236290FC00D35C93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9DFB595236290FC00D35C93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D9DFB596236290FC00D35C93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9DFB597236290FC00D35C93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D90383AF2361A43F003C8B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D90383B02361A43F003C8B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D90383B22361A43F003C8B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OVLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.shiyuliandong820.com.OVLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D90383B32361A43F003C8B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OVLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.shiyuliandong820.com.OVLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D90383B52361A43F003C8B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OVLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.shiyuliandong820.com.OVLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OVLive.app/OVLive";
+			};
+			name = Debug;
+		};
+		D90383B62361A43F003C8B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OVLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.shiyuliandong820.com.OVLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OVLive.app/OVLive";
+			};
+			name = Release;
+		};
+		D90383B82361A43F003C8B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OVLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.shiyuliandong820.com.OVLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OVLive;
+			};
+			name = Debug;
+		};
+		D90383B92361A43F003C8B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OVLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.shiyuliandong820.com.OVLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OVLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90383842361A43C003C8B21 /* Build configuration list for PBXProject "OVLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90383AF2361A43F003C8B21 /* Debug */,
+				D90383B02361A43F003C8B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90383B12361A43F003C8B21 /* Build configuration list for PBXNativeTarget "OVLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90383B22361A43F003C8B21 /* Debug */,
+				D90383B32361A43F003C8B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90383B42361A43F003C8B21 /* Build configuration list for PBXNativeTarget "OVLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90383B52361A43F003C8B21 /* Debug */,
+				D90383B62361A43F003C8B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90383B72361A43F003C8B21 /* Build configuration list for PBXNativeTarget "OVLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90383B82361A43F003C8B21 /* Debug */,
+				D90383B92361A43F003C8B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D90383812361A43C003C8B21 /* Project object */;
+}
